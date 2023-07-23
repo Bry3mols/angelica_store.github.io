@@ -1,0 +1,95 @@
+.app-sidebar__user-avatar {
+    width: 48px;
+    background: gray;
+    padding: 6px;
+}
+.app-sidebar__toggle{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15pt;
+}
+.app-sidebar__toggle::before{
+	display: none;
+}
+.headerRegister{
+	background: #6f42c1;
+	color: #FFF;
+}
+.headerUpdate{
+	background: #222d32;
+	color: #FFF;
+}
+.notBlock{
+	display: none;
+}
+.app .app-sidebar{
+	background: #222d32;
+}
+ .app .app-header__logo{
+ 	background: #222d32;
+}
+ .app .app-nav{
+background: #222d32;
+ }
+ .app .app-header{
+ 	background: #222d32;
+ }
+.material-half-bg .coverr {
+  background-color: #6f42c1;
+  height: 50vh;
+}
+
+.custom-btn {
+  /* Estilos personalizados para el botón */
+  background-color: #FF1493;
+  color: #fff;
+  /* Agrega cualquier otro estilo personalizado aquí */
+}
+
+.custom-btn:hover,
+.custom-btn:active {
+  /* Estilos para cuando el cursor está encima o se hace clic en el botón */
+  background-color: #FF1493;
+  /* Agrega cualquier otro estilo que desees */
+}
+
+
+.btn.btn-primary.btn-block {
+  background-color: #6f42c1;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn.btn-primary.btn-block:hover,
+.btn.btn-primary.btn-block:active {
+  background-color: mix(#FF1493, #000000, 20%);
+  /* Agrega cualquier otro estilo que desees */
+}
+
+
+
+.semibold-text a {
+  color: #6f42c1;
+}
+
+.recuperar-contrasena {
+  margin-left: 100;
+  color: black;
+  font-weight: bold;
+
+}
+
+.user .profile .cover-image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-image: url('../images/Cover.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+}
